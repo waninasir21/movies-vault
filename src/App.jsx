@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/movies-vault">
         <Navbar />
 
         <Routes>
